@@ -35,15 +35,15 @@ This simple condition prevents the script from executing code that references a 
 Overall, despite these minor issues, the tutorial remains a solid resource for refreshing your Unity skills and exploring its new features.
 
 Explanding on the project:
-1. I changed the font and added restart and quit buttons:
+1. I changed the [font](https://fonts.google.com/specimen/Caveat) and added restart and quit buttons:
 ![image](https://github.com/user-attachments/assets/6d22f025-d1cd-4880-846f-d2a81f23f8da)
-2. I changed the assets:
+2. I changed the [assets](https://assetstore.unity.com/packages/3d/props/poly-halloween-236625):
 ![image](https://github.com/user-attachments/assets/b043f57d-a87d-4cce-b54d-2ad3d87e6763)
-3. I added a skybox and rain effect:
+3. I added a [skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633) and [rain effect](https://assetstore.unity.com/packages/vfx/particles/free-quick-effects-vol-1-304424):
 ![image](https://github.com/user-attachments/assets/66084a3a-46ea-43d2-900c-4c08c4bb6079)
 4. Added fog:
 ![image](https://github.com/user-attachments/assets/7c104dcf-9f57-4a70-b1d3-28b428d8f01f)
-5. Lastly I added some rain sound and some random props in and around the playing area so it would feel a bit more alive.
+5. Lastly I added some [rain sound](https://pixabay.com/sound-effects/rain-sound-188158/) and some random [props](https://assetstore.unity.com/packages/3d/props/poly-halloween-236625) in and around the playing area so it would feel a bit more alive.
 ![image](https://github.com/user-attachments/assets/fd87c3b6-cc13-4904-bafd-91f09b1dde7c)
 
 Overall, this experience served as an excellent refresher, and I truly enjoyed experimenting with the project

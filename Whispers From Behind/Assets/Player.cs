@@ -8,19 +8,21 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     private Vector2 movement;
-    private float speed = 35;
+    private float speed = 60;
     private bool isGrounded = false;
     public TextMeshPro text;
 
     private Rigidbody rb;
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
     void FixedUpdate()
-    {   
-        transform.Translate(movement.x, 0, 0);
+    {   if(movement.x > 0 &&  transform.position.x < 14)
+            transform.Translate(movement.x, 0, 0);
+        if(movement.x < 0 &&  transform.position.x > -14)
+            transform.Translate(movement.x, 0, 0);
     }
     
     public void OnMovement(InputValue value)
@@ -28,7 +30,7 @@ public class Player : MonoBehaviour
         movement = value.Get<Vector2>() * Time.deltaTime * speed;
 
         if(value.Get<Vector2>().y > 0 && isGrounded){
-            rb.AddForce(Vector3.up * 2, ForceMode.Impulse);
+            //rb.AddForce(Vector3.up * 1, ForceMode.Impulse);
         }
     }
     

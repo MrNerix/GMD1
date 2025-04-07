@@ -673,7 +673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6563088355562894356, guid: 562def2577fcb4641af7e6d7bdf9b8d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6563088355562894356, guid: 562def2577fcb4641af7e6d7bdf9b8d2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -722,6 +722,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1287101909306558130, guid: 562def2577fcb4641af7e6d7bdf9b8d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2125880797}
+    - targetCorrespondingSourceObject: {fileID: 1287101909306558130, guid: 562def2577fcb4641af7e6d7bdf9b8d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2125880800}
   m_SourcePrefab: {fileID: 100100000, guid: 562def2577fcb4641af7e6d7bdf9b8d2, type: 3}
 --- !u!4 &1091366741 stripped
 Transform:
@@ -969,63 +972,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!1001 &8415556032352916132
-PrefabInstance:
+--- !u!114 &2125880800
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1878996512004842589, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_Name
-      value: Obstacle
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8407498342444141745, guid: b482330452e2480499bd986166bd4578, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b482330452e2480499bd986166bd4578, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125880793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fe7afbea050b54280e7b8953f2310b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHeath: 100
+  health: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1036,4 +996,3 @@ SceneRoots:
   - {fileID: 487937313}
   - {fileID: 1091366740}
   - {fileID: 1412386381}
-  - {fileID: 8415556032352916132}

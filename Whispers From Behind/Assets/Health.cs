@@ -8,6 +8,9 @@ public class Health : MonoBehaviour
     private int maxHeath = 100;
     [SerializeField]
     private int health;
+    
+    [SerializeField]
+    private GameObject GM;
 
 
 
@@ -19,6 +22,9 @@ public class Health : MonoBehaviour
 
     public void DamageHealth(int damage){
         health = health - damage;
+        if(health <= 0){
+            GM.GetComponent<GameStateManager>().StopGame();
+        }
         Debug.Log(health);
     }
     // Update is called once per frame
@@ -26,4 +32,8 @@ public class Health : MonoBehaviour
     {
         
     }
+    public void FullHealth(){
+        health = maxHeath;
+    }
+
 }

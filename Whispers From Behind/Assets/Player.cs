@@ -8,11 +8,12 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     private Vector2 movement;
-    private float speed = 60;
+    public float speed = 60;
     private bool isGrounded = false;
     public TextMeshPro text;
 
     private Rigidbody rb;
+    public GameObject GM;
 
     void Awake()
     {
@@ -41,7 +42,8 @@ public class Player : MonoBehaviour
     
     public void OnB()
     {
-        text.text = "B";
+        GM.GetComponent<GameStateManager>().StartGame();
+        //text.text = "B";
     }
     
     public void OnX()

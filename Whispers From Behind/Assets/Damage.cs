@@ -22,6 +22,12 @@ public class Damage : MonoBehaviour
         if(other.gameObject.name == "Player"){
             other.gameObject.GetComponent<Health>().DamageHealth(damage);
         }
+        if(other.gameObject.name == "PropBoundary"){
+            Debug.Log("ssssssssssssssss");  
+            Destroy(gameObject);
+        }
+
     }
+    
 
 }

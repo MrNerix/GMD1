@@ -6,10 +6,11 @@ public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField]
     private GameObject obstacle;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InvokeRepeating("SpawnObstacle", 1f, 0.5f);
+        StartSpawner();
     }
 
     // Update is called once per frame
@@ -19,7 +20,14 @@ public class ObstacleSpawner : MonoBehaviour
         
     }
 
+
     void SpawnObstacle(){
         Instantiate(obstacle, new Vector3(Random.Range(-14, 14), 0.5f, 20f), Quaternion.identity);
+    }
+    public void StopSpawner(){
+        CancelInvoke();
+    }
+    public void StartSpawner(){
+        InvokeRepeating("SpawnObstacle", 1f, 0.5f);
     }
 }

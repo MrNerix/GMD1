@@ -5,7 +5,7 @@ public class Damage : MonoBehaviour
 {
 
     [SerializeField]
-    private int damage = 50;
+    private int damage = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,7 +23,7 @@ public class Damage : MonoBehaviour
             other.gameObject.GetComponent<Health>().DamageHealth(damage);
         }
         if(other.gameObject.name == "PropBoundary"){
-            Debug.Log("ssssssssssssssss");  
+            //Debug.Log("ssssssssssssssss");  
             Destroy(gameObject);
         }
 

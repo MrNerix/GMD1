@@ -15,8 +15,12 @@ public class ChaseManager : MonoBehaviour
     private float step; // The amount to increase chase progress each time
 
     public GameObject gm;
+    public GameObject monster;
 
     public int progressSlow = 1; // The amount of progress to slow down the chase
+
+
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,10 +41,24 @@ public class ChaseManager : MonoBehaviour
         }
 
         chaseSlider.value = chaseProgress;
+        
+        if(GetComponent<GameStateManager>().gameState == "Running")
+        {
+            GetComponent<AudioSource>().volume = 0.2f + chaseProgress / 2f;
+            GetComponent<AudioSource>().pitch = 1.0f + chaseProgress / 2f;
+
+            monster.GetComponent<AudioSource>().volume = 0.2f + chaseProgress / 2f;
+            monster.GetComponent<AudioSource>().pitch = 1.0f + chaseProgress / 2f; // Reset chase progress when the game is paused
+        }
+        
 
         if (chaseProgress >= 1f)
         {
             isSlowed = false;
+           
+            monster.transform.Find("Stab").gameObject.GetComponent<AudioSource>().Play();
+            
+            
             gm.GetComponent<GameStateManager>().StopGame();
             chaseProgress = 0f;
         }
@@ -53,6 +71,7 @@ public class ChaseManager : MonoBehaviour
     {
         isSlowed = true;
         step = progress / progressSlow; // Adjust the step based on the progress and slow factor
+        
     }
     public void DecreceChaseProgress(float progress)
     {

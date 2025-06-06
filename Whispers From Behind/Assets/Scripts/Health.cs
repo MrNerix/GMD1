@@ -27,6 +27,7 @@ public class Health : MonoBehaviour
         health = health - damage;
         if (health <= 0)
         {
+            GetComponent<AudioSource>().volume = 0f;
             GM.GetComponent<GameStateManager>().StopGame();
         }
         HealthText(); // Update the UI text to reflect the new health amount
@@ -54,5 +55,9 @@ public class Health : MonoBehaviour
     public int GetMaxHealth()
     {
         return maxHeath;
+    }
+    public int GetCurrentHealth()
+    {
+        return health;
     }
 }

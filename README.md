@@ -3,17 +3,17 @@
 [YouTube - Video](https://youtu.be/M4JkW6xeWjE)
 
 ## Blog Posts
-[1. Blog Post #1 – Rollaball](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog#1%20-%20Rollaball.md)
+[1. Blog Post #1 – Rollaball](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog%231%20-%20Rollaball.md)
 
-[2. Blog Post #2 - Game Design Document](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog#2%20-%20GDD.md)
+[2. Blog Post #2 - Game Design Document](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog%232%20-%20GDD.md)
 
-[3. Blog Post #3 – Milestone: Main Gameplay Loop](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog#3%20-%20Milestone%201.md)
+[3. Blog Post #3 – Milestone: Main Gameplay Loop](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog%233%20-%20Milestone%201.md)
 
-[4. Blog Post #4 - Milestone 2: Replayability](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog#4%20-%20Milestone%202.md)
+[4. Blog Post #4 - Milestone 2: Replayability](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog%234%20-%20Milestone%202.md)
 
-[5. Blog Post #5 - Milestone 3: Visuals and Immersion](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog#5%20-%20Milestone%203.md)
+[5. Blog Post #5 - Milestone 3: Visuals and Immersion](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog%235%20-%20Milestone%203.md)
 
-[6. Blog Post #6 - The Whispers From Behind: Conclusion](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog#6%20-%20The%20Whispers%20From%20Behind.md)
+[6. Blog Post #6 - The Whispers From Behind: Conclusion](https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog%236%20-%20The%20Whispers%20From%20Behind.md)
 
 ## Sources
 Models:

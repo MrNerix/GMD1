@@ -48,7 +48,7 @@ public class ChaseManager : MonoBehaviour
             GetComponent<AudioSource>().pitch = 1.0f + chaseProgress / 2f;
 
             monster.GetComponent<AudioSource>().volume = 0.2f + chaseProgress / 2f;
-            monster.GetComponent<AudioSource>().pitch = 1.0f + chaseProgress / 2f; // Reset chase progress when the game is paused
+            monster.GetComponent<AudioSource>().pitch = 1.0f + chaseProgress / 2f;
         }
         
 
@@ -57,7 +57,7 @@ public class ChaseManager : MonoBehaviour
             isSlowed = false;
            
             monster.transform.Find("Stab").gameObject.GetComponent<AudioSource>().Play();
-            
+
             
             gm.GetComponent<GameStateManager>().StopGame();
             chaseProgress = 0f;

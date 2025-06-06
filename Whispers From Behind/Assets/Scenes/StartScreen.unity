@@ -1646,7 +1646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Wispers From Behind
+  m_text: The Whispers From Behind
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ac9ce529ce88e364281681eee6494639, type: 2}
   m_sharedMaterial: {fileID: 3240608370450067936, guid: ac9ce529ce88e364281681eee6494639, type: 2}

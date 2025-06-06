@@ -23,9 +23,6 @@ public class SideSpawner : MonoBehaviour
 
     void SpawnObject()
     {
-        //Instantiate(objectsToSpawn[Random.Range(0, objectsToSpawn.Length)], new Vector3(Random.Range(-17, -15), 0f, 20f), Quaternion.identity);
-        //Instantiate(objectsToSpawn[Random.Range(0, objectsToSpawn.Length)], new Vector3(Random.Range(15, 17), 0f, 20f), Quaternion.identity);
-        // Same thing but random rotation
         Instantiate(objectsToSpawn[Random.Range(0, 2)], new Vector3(Random.Range(-20, -15), 0f, 30f), Quaternion.Euler(0, Random.Range(0, 360), 0));
         Instantiate(objectsToSpawn[Random.Range(0, 2)], new Vector3(Random.Range(15, 20), 0f, 30f), Quaternion.Euler(0, Random.Range(0, 360), 0));
     }

@@ -49,7 +49,8 @@ I replaced my Enemy cube with a [monster 3d model](https://assetstore.unity.com/
 ## Start Screen
 I create the start screen in a new scene, placed some [models](https://quaternius.itch.io/stylized-nature-megakit) randomly. Added a [rain](https://assetstore.unity.com/packages/p/free-quick-effects-vol-1-304424) effect (Also added it to the main scene), and fog(https://github.com/MrNerix/GMD1/blob/main/Blog%20Posts/Blog#1%20-%20Rollaball.md). 
 In the canvas I added a simple title and a prompt on how to start the game.
-![image](https://github.com/user-attachments/assets/0ee3c02a-ba09-4c03-ab2a-a96dc015ee1a)
+![image](https://github.com/user-attachments/assets/6218b72e-4967-428e-aa8d-32456b7f921a)
+
 
 
 ## Shop Menu
